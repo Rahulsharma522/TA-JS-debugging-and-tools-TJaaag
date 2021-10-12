@@ -12,7 +12,7 @@ function fullName(firstName ,lastName){
    
    
    let result= fullName( "Rahul","Sharma");
-   let expected = "Rahul Sharma"
+   let expected = "Rahul kumar"
    if(result !==expected){
        throw new Error(`${result} is not equal to ${expected}`)
    }
